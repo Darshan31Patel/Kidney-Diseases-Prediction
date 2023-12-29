@@ -257,3 +257,9 @@ Traceback (most recent call last):
     test_image = image.load_img(imagename,target_size=(224,224))
 AttributeError: module 'keras.preprocessing.image' has no attribute 'load_img'
 [2023-12-22 12:29:01,638: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 12:29:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-29 21:50:06,033: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2023-12-29 21:50:06,036: INFO: common: yaml file : config\config.yaml loaded successfully]
+[2023-12-29 21:50:06,036: INFO: common: yaml file : params.yaml loaded successfully]
+[2023-12-29 21:50:06,045: INFO: common: created directory at : artifacts]
+[2023-12-29 21:50:06,046: INFO: common: created directory at : artifacts/data_ingestion]
+[2023-12-29 21:50:06,047: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
